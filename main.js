@@ -11,6 +11,20 @@ const workDiv = document.getElementById("work");
 const studyDiv = document.getElementById("study");
 const friendsDiv = document.getElementById("friends");
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //HIDE AND GO - (Empezamos a jugar con los EVENTOS)
 function hideViews() {
     homeDiv.classList.add("hide");
@@ -44,6 +58,15 @@ function goFriends() {
     hideViews();
     friendsDiv.classList.remove("hide");
   }
+
+axios
+.get("https://opentdb.com/api.php?amount=10&category=15&difficulty=easy&type=boolean")
+  .then((res) => console.table(res.data.results))
+  .catch((err) => console.error(err));
+
+
+
+
 
 //ADD EVENT - (Seguimos jugando con los EVENTOS-ACCIÓN) - OJO AL CSS
 homeNav.addEventListener("click", goHome);
