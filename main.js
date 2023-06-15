@@ -11,18 +11,11 @@ const workDiv = document.getElementById("work");
 const studyDiv = document.getElementById("study");
 const friendsDiv = document.getElementById("friends");
 
-
-
-
-
-
-
-
-
-
-
-
-
+const questionContainerElement = document.getElementById("question-container");
+const questionElement = document.getElementById("question");
+const answerButtonsElement = document.getElementById("answer-buttons");
+const startButton = document.getElementById("start-btn"); 
+const nextButton = document.getElementById("next-btn");
 
 
 //HIDE AND GO - (Empezamos a jugar con los EVENTOS)
