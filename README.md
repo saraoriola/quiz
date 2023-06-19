@@ -32,5 +32,5 @@ Contributions are welcome! If you wish to improve this project, please fork the 
 ## License
 This project is under the license of Sara Oriola.
 
-Developed by [Miguel Herrera](https://github.com/saraoriola)
+Developed by [Sara Oriola](https://github.com/saraoriola)
 
